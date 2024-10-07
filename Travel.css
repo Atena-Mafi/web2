@@ -1,0 +1,1521 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Fredoka:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Fredoka:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Sixtyfour+Convergence&display=swap');
+
+
+
+*{
+
+padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+
+header{
+width: 100%;
+    height:15rem;
+    position: relative;
+    background-color: blue;
+overflow: hidden;
+/* background: url('https://i.pinimg.com/736x/0e/98/26/0e98264c19321dacafdabc0eb022a7cf.jpg') center/cover no-repeat;
+     */
+}
+
+
+header video{
+
+    width: 100%;
+}
+
+.header-two{
+    width: 100%;
+    height:30rem;
+
+position: absolute;
+top: 0;
+right: 0;
+left: 0;
+
+}
+
+
+   .logo{
+
+width: 8rem;
+height: 8rem;
+   
+   
+    
+   }
+
+
+   .logo img{
+    z-index: 1000;
+    width: 8rem;
+    height: 8rem;
+    
+   }
+
+   .navbar{
+width: 50%;
+
+    transform: translate(27rem ,-9rem);
+
+
+   }
+
+
+
+
+   nav{
+    width: 100%;
+   
+    padding-top: 1rem;
+   }
+
+   nav ul {
+
+display: flex;
+justify-content: center;
+gap: 2rem;
+align-items: flex-end;
+
+
+   }
+
+
+
+
+   nav ul li{
+ 
+    list-style: none;
+   
+       }
+
+    nav ul li  a{
+        font-family: "Nunito Sans", sans-serif;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow:#FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, -40px -40px 0px rgba(255,255,255,0);
+    font-size: 1.5rem;
+       }   
+
+
+       
+    nav ul li  a:hover{
+    font-size: 2rem;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #19127e, 0 0 30px #081863, 0 0 40px #19127e, 0 0 55px #19127e, 0 0 75px #19127e, -40px -40px 0px rgba(0,24,124,0);
+       }   
+
+       .search-box{
+width: 30rem;
+height: 4rem;
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 1000;
+transform: translate(70rem ,-9rem);
+
+       }
+
+       input[type="search"]{
+        
+        background: none;
+        width: 15rem;
+        height: 2rem;
+        border: 0.125rem solid hsla(0, 29%, 88%, 0.479) ;
+        
+        border-radius: 2rem;
+        font-size: 1rem;
+        font-weight: bold;
+    color: #ffffff;
+        text-shadow:#FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, -40px -40px 0px rgba(255,255,255,0);
+        padding: 0.125rem;
+      
+       }
+
+       .go{
+
+        background: none;
+        width: 3rem;
+        height: 2rem;
+        border: 0.125rem solid hsla(0, 29%, 88%, 0.479);
+        border-radius: 2rem;
+        font-size: 1rem;
+        color: #ffffff;
+        text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF;
+        padding: 0.25rem;
+       }
+       
+
+       .go:hover{
+        width: 4rem;
+        height: 3rem;
+
+       }
+       
+       input[type="search"]:hover{
+
+        width: 16rem;
+        height: 3rem;
+
+
+
+       }
+
+
+       .Introduction{
+        width: 50rem;
+        height: 2rem;
+     
+        transform: translate(26.5rem ,-8rem);
+        font-size: larger;
+    font-style: italic;
+        color: #ffffff;
+        font-size: 1rem;
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+letter-spacing: 1rem;
+    
+   
+    }
+
+    .container{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+
+    }
+
+
+
+
+    .top-pic{
+margin-top: 2rem;
+width: 100%;
+height: 40rem;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+margin-bottom: 1rem;
+
+
+    }
+
+
+    .top-pic video{
+
+height: 100%;
+width: 100%;
+object-fit: cover;
+    }
+
+
+
+    .top-pic a{
+background-color: #03d;
+        font-style: italic;
+        color: #ffffff;
+        font-size: 1rem;
+       text-align: center;
+       font-family: "Nunito Sans", sans-serif;
+       position: absolute;
+        bottom: 6rem;
+    
+       text-decoration: none;
+      
+    padding: 0.25rem;
+       border-radius: 0.5rem;
+       width: 10rem;
+       height: 2rem;
+       text-align: center;
+
+
+
+        
+            }
+
+
+
+
+            .part-1{
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             width: 100%;
+             height: 55rem;
+             background-color: cadetblue;
+             /* margin-bottom: 1rem; */
+             font-weight: lighter;
+
+
+            }
+
+
+
+            .part-1 img{
+                width: 50%;
+                height: 100%;
+   
+               }
+
+
+
+               .part-1 article{
+                width: 50%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: #495057;
+                text-decoration: none;
+                font-family: "Nunito Sans", sans-serif;
+                
+                color: #ffffff;
+                text-shadow: 1px 1px 2px pink;
+                font-style: italic;
+                font-size: 1.2rem;
+
+   
+               }
+
+               .part-1 article p{
+                width: 25rem;
+                line-height: 2rem;
+                text-align: justify;
+
+
+               }
+
+
+
+
+
+
+
+               .part-1 article a{
+                
+                text-decoration: none;
+                font-family: "Nunito Sans", sans-serif;
+                transform: translateX(1rem);
+                text-shadow: 1px 1px 2px pink;
+                font-style: italic;
+                
+                background-color: #03d;
+                font-style: italic;
+                color:white;
+                font-size: 1rem;
+                padding: 0.25rem;
+              border-radius: 0.5rem;
+             width: 10rem;
+             height: 2rem;
+             text-align: center;
+
+   
+               }
+
+
+
+
+               .part-2{
+
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                height: 45rem;
+                margin-top: 1rem;
+              
+                
+                background-color: #495057;
+                text-decoration: none;
+                font-family: "Nunito Sans", sans-serif;
+
+                color: #ffffff;
+                text-shadow: 1px 1px 2px pink;
+                font-style: italic;
+                font-weight: lighter;
+                font-size: 1rem;
+
+               }
+
+
+
+
+               .part-2 img{
+
+                width:100%;
+                height:80%;
+                
+               
+
+               }
+
+
+
+               .part-3{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 50rem;
+                background-color: cadetblue;
+               margin-bottom: 1rem;
+                font-weight: lighter;
+   
+   
+               }
+   
+   
+   
+               .part-3 img{
+                   width: 60%;
+                   height: 100%;
+      
+                  }
+   
+   
+   
+                  .part-3 article{
+                   width: 40%;
+                   height: 100%;
+                   display: flex;
+                   flex-direction: column;
+                   justify-content: center;
+                   align-items: center;
+                   background-color: #495057;
+                   text-decoration: none;
+                   font-family: "Nunito Sans", sans-serif;
+                   
+                   color: #ffffff;
+                   text-shadow: 1px 1px 2px pink;
+                   font-style: italic;
+                   font-size: 1.2rem;
+   
+      
+                  }
+   
+                  .part-3 article p{
+                   width: 25rem;
+                   line-height: 2rem;
+                   text-align: justify;
+   
+   
+                  }
+   
+   
+   
+   
+   
+   
+   
+                  .part-3 article a{
+                   
+                   text-decoration: none;
+                   font-family: "Nunito Sans", sans-serif;
+                   transform: translateX(1rem);
+                   text-shadow: 1px 1px 2px pink;
+                   font-style: italic;
+                   
+                   background-color: #03d;
+                   font-style: italic;
+                   color:white;
+                   font-size: 1rem;
+                   padding: 0.25rem;
+                 border-radius: 0.5rem;
+                width: 10rem;
+                height: 2rem;
+                text-align: center;
+   
+      
+                  }
+
+
+
+
+
+
+
+.part-4{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 60rem;
+    background-color: cadetblue;
+   margin-bottom: 0;
+    font-weight: lighter;
+    margin-bottom: 1rem;
+
+
+   }
+
+
+
+   .part-4 img{
+       width: 60%;
+       height: 100%;
+       margin-top: 0;
+
+      }
+
+
+
+      .part-4 article{
+       width: 40%;
+       height: 100%;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       background-color: #495057;
+       text-decoration: none;
+       font-family: "Nunito Sans", sans-serif;
+       
+       color: #ffffff;
+       text-shadow: 1px 1px 2px pink;
+       font-style: italic;
+       font-size: 1.2rem;
+
+
+      }
+
+      .part-4 article p{
+       width: 25rem;
+       line-height: 2rem;
+       text-align: justify;
+
+
+      }
+
+
+
+
+
+
+
+      .part-4 article a{
+       
+       text-decoration: none;
+       font-family: "Nunito Sans", sans-serif;
+       transform: translateX(1rem);
+       text-shadow: 1px 1px 2px pink;
+       font-style: italic;
+       
+       background-color: #03d;
+       font-style: italic;
+       color:white;
+       font-size: 1rem;
+       padding: 0.25rem;
+     border-radius: 0.5rem;
+    width: 10rem;
+    height: 2rem;
+    text-align: center;
+
+
+      }
+
+    
+
+
+      .last-pic{
+        margin-top: 0rem;
+        width: 100%;
+        height: 40rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+       
+        
+        
+            }
+        
+        
+            .last-pic video{
+        
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+            }
+        
+        
+        
+            .last-pic a{
+        background-color: #03d;
+                font-style: italic;
+                color: #ffffff;
+                font-size: 1rem;
+               text-align: center;
+               font-family: "Nunito Sans", sans-serif;
+               position: absolute;
+                bottom: 6rem;
+            
+               text-decoration: none;
+              
+            padding: 0.25rem;
+               border-radius: 0.5rem;
+               width: 10rem;
+               height: 2rem;
+               text-align: center;
+        
+        
+        
+                
+                    }
+
+
+
+                    .last-pic span{
+                        position: absolute;
+                        
+                                font-style: italic;
+                                color: #ffffff;
+                                font-size: 2rem;
+                               text-align: center;
+                               font-family: "Nunito Sans", sans-serif;
+                               text-align: center;
+                               letter-spacing: 1rem;
+                        
+                        
+                        
+                                
+                                    }
+                                    .footer-container{
+                                        background-color: black;
+                                         
+                                         display: flex;
+                                         width: 100%;
+                                         height: auto;
+                                         flex-direction: row;
+                                         margin-top: 1rem;
+                                 
+                                         justify-content: center;
+                                        
+                                         gap: 1rem;
+                                
+                                
+                                       
+                                
+                                
+                                
+                                     }
+                                
+                                     .about{
+                                         width: 20rem;
+                                         height: 100%;
+                                         transform: translateY(5rem);
+                                         color: #ffffff;
+                                         font-style: italic;
+                                         
+                                 
+                                       
+                                     }
+                                
+                                
+                                     .Social{
+                                         width:20rem;
+                                         height: 100%;
+                                         padding: 3rem;
+                                         display: flex;
+                                         flex-direction:column;
+                                         justify-content: center;
+                                         align-items: center;
+                                         transform: translate(6rem , 2.5rem);
+                                         color: #ffffff;
+                                         font-style: italic;
+                                
+                                
+                                       
+                                     }
+                                
+                                     .Social h2{
+                                         width:10rem;
+                                         display: block;
+                                     }
+                                
+                                
+                                     .Social a img{
+                                         width:3rem;
+                                         height: 3rem;
+                                       
+                                     }
+                                
+                                     .Social-3{
+                                         width:10rem;
+                                         display:flex;
+                                         justify-content: center;
+                                         gap:0.75rem
+                                     
+                                     }
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                     .contact-us{
+                                        /* transform: translateX(2rem); */
+                                        height: 20rem;
+                                         width: 30rem;
+                                         display: flex;
+                                         flex-direction: row;
+                                         justify-content: center;
+                                         align-items: center;
+                                         gap: 1rem;
+                                       
+                                         transform: translateX(10rem);
+                                         font-size: 1rem;
+                                         font-style: italic;
+                                         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                         color: #ffffff;
+                                    
+                                
+                                      
+                                     }
+                                     .email{
+                                         height: 10rem;
+                                
+                                         width: 20rem;
+                                         display: flex;
+                                         justify-content: center;
+                                         align-items: center;
+                                         flex-direction:column;
+                                         gap: 0;
+                                         margin: 0;
+                                         padding: 0;
+                                     }
+                                     .phone{
+                                         height: 10rem;
+                                         width: 20rem;
+                                         display: flex;
+                                         justify-content: center;
+                                         gap: 0rem;
+                                         align-items: center;
+                                         flex-direction:column;
+                                         
+                                        
+                                     }
+                                
+                                     .copyright{
+                                         transform: translate( -35rem,17rem );
+                                         height:2rem;
+                                         width: auto;
+                                         color: #ffffff;
+                                         font-style: italic;
+                                
+                                     } 
+
+
+
+
+                                     @media (max-width: 768px){
+
+                                        header{
+                                            width: 100%;
+                                                height:10rem;
+                                                position: relative;
+                                               
+                                            overflow: hidden;
+                                            /* background: url('https://i.pinimg.com/736x/0e/98/26/0e98264c19321dacafdabc0eb022a7cf.jpg') center/cover no-repeat;
+                                                 */
+                                            }
+                                            
+                                            
+                                            
+                                            
+                                            header video{
+                                            
+                                                width: 100%;
+                                            }
+                                            
+                                            .header-two{
+                                                width: 100%;
+                                                height:30rem;
+                                            
+                                            position: absolute;
+                                            top: 0;
+                                            right: 0;
+                                            left: 0;
+                                            margin-bottom: 0;
+                                            
+                                            }
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                               .logo{
+                                            
+                                            width: 8rem;
+                                            height: 8rem;
+                                               
+                                               
+                                                
+                                               }
+                                            
+                                            
+                                               .logo img{
+                                                z-index: 1000;
+                                                width: 8rem;
+                                                height: 8rem;
+                                                
+                                               }
+                                            
+                                               .navbar{
+                                            width: 80%;
+                                            z-index: 1000;
+                                                transform: translate(2rem ,-2rem);
+                                            
+                                            
+                                               }
+                                            
+                                            
+                                            
+                                            
+                                               nav{
+                                                width: 100%;
+                                               
+                                               
+                                               }
+                                            
+                                               nav ul {
+                                            
+                                            display: flex;
+                                            justify-content: center;
+                                          
+                                            align-items: flex-start;
+                                            
+                                            
+                                            
+                                               }
+                                            
+                                            
+                                            
+                                            
+                                               nav ul li{
+                                             
+                                                list-style: none;
+                                               
+                                                   }
+                                            
+                                                nav ul li  a{
+        
+                                                    font-family: "Nunito Sans", sans-serif;
+                                                text-decoration: none;
+                                                font-size: larger;
+                                                font-weight: bold;
+                                                color: #ffffff;
+                                                text-shadow:#FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, -40px -40px 0px rgba(255,255,255,0);
+                                                font-size: 1rem;
+                                                   }   
+                                            
+                                            
+                                                   
+                                                nav ul li  a:hover{
+                                                font-size: 2rem;
+                                                text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #19127e, 0 0 30px #081863, 0 0 40px #19127e, 0 0 55px #19127e, 0 0 75px #19127e, -40px -40px 0px rgba(0,24,124,0);
+                                                   }   
+                                            
+                                                   .search-box{
+                                            width:10rem;
+                                            height: 4rem;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            z-index: 1000;
+                                            transform: translate(12rem ,-9rem);
+                                            
+                                                   }
+                                            
+                                                   input[type="search"]{
+                                                    
+                                                    background: none;
+                                                    width:10rem;
+                                                    height: 1.5rem;
+                                                    border: 0.125rem solid hsla(0, 29%, 88%, 0.479) ;
+                                                    
+                                                    border-radius: 2rem;
+                                                    font-size: 1rem;
+                                                    font-weight: bold;
+                                                color: #ffffff;
+                                                    text-shadow:#FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, -40px -40px 0px rgba(255,255,255,0);
+                                                    padding: 0.125rem;
+                                                  
+                                                   }
+                                            
+                                                   .go{
+                                            
+                                                    background: none;
+                                                    width: 3rem;
+                                                    height: 1rem;
+                                                    border: 0.125rem solid hsla(0, 29%, 88%, 0.479);
+                                                    border-radius: 2rem;
+                                                    font-size: 0.5rem;
+                                                    color: #ffffff;
+                                                    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF;
+                                                    transform: translateX(7rem);
+                                                    text-align: center;
+                                                   }
+                                                   
+                                            
+                                                   
+                                                   
+                                            
+                                                   .Introduction{
+                                                    width: 50rem;
+                                                    height: 2rem;
+                                                    transform: translate(-13.125rem ,-16.75rem);
+                                                
+                                                font-style: italic;
+                                                    color: #ffffff;
+                                                    font-size:0.5rem;
+                                                text-align: center;
+                                                letter-spacing: 0.5rem;
+                                           
+                                           
+                                                
+                                               
+                                                }
+
+
+
+                                                .container{
+
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                  
+                                                    
+                                                    
+                                                        }
+                                                    
+                                                    
+                                                    
+                                                    
+                                                        .top-pic{
+                                                    
+                                                    width: 100%;
+                                                    height: 20rem;
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    position: relative;
+                                                    margin-bottom: 1rem;
+                                                    
+                                                    
+                                                    
+                                                        }
+                                                    
+                                                    
+                                                        .top-pic video{
+                                                    
+                                                    height: 100%;
+                                                    width: 100%;
+                                                    object-fit: cover;
+                                                        }
+                                                    
+                                                    
+                                                    
+                                                        .top-pic a{
+                                                    background-color: #03d;
+                                                            font-style: italic;
+                                                            color: #ffffff;
+                                                            font-size: 1rem;
+                                                           text-align: center;
+                                                           font-family: "Nunito Sans", sans-serif;
+                                                           position: absolute;
+                                                            bottom: 2rem;
+                                                        
+                                                           text-decoration: none;
+                                                          
+                                                        padding: 0.25rem;
+                                                           border-radius: 0.5rem;
+                                                           width: 10rem;
+                                                           height: 2rem;
+                                                           text-align: center;
+                                                    
+                                                    
+                                                    
+                                                            
+                                                                }
+                                                    
+                                                    
+                                                    
+                                                    
+                                                                .part-1{
+                                                                 display: flex;
+                                                                 justify-content: center;
+                                                                 align-items: center;
+                                                                 
+                                                                 width: 100%;
+                                                                 height: 25rem;
+                                                                 background-color: cadetblue;
+                                                                 /* margin-bottom: 1rem; */
+                                                                 font-weight: lighter;
+                                                    
+                                                    
+                                                                }
+                                                    
+                                                    
+                                                    
+                                                                .part-1 img{
+                                                                    width: 50%;
+                                                                    height: 100%;
+                                                       
+                                                                   }
+                                                    
+                                                    
+                                                    
+                                                                   .part-1 article{
+                                                                    width: 50%;
+                                                                    height: 100%;
+                                                                    display: flex;
+                                                                    flex-direction: column;
+                                                                    justify-content: center;
+                                                                    align-items: center;
+                                                                    background-color: #495057;
+                                                                    text-decoration: none;
+                                                                    font-family: "Nunito Sans", sans-serif;
+                                                                    
+                                                                    color: #ffffff;
+                                                                    text-shadow: 1px 1px 2px pink;
+                                                                    font-style: italic;
+                                                                    font-size: 0.5rem;
+                                                                   
+                                                    
+                                                       
+                                                                   }
+                                                    
+                                                                   .part-1 article p{
+                                                                    width: 10rem;
+                                                                    line-height: 1rem;
+                                                                    text-align: justify;
+                                                                    text-wrap: wrap;
+                                                                    padding: 0.25rem;
+                                                    
+                                                    
+                                                                   }
+
+
+
+                                                                   .part-1 article h2{
+                                                                    width: 10rem;
+                                                                    line-height: 0.75rem;
+                                                                    text-align: justify;
+                                                                    text-wrap: wrap;
+                                                                    padding-top: 0.25rem;
+                                                    
+                                                    
+                                                                   }
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                                   .part-1 article a{
+                                                                    
+                                                                    text-decoration: none;
+                                                                    font-family: "Nunito Sans", sans-serif;
+                                                                    transform: translateX(1rem);
+                                                                    text-shadow: 1px 1px 2px pink;
+                                                                    font-style: italic;
+                                                                    
+                                                                    background-color: #03d;
+                                                                    font-style: italic;
+                                                                    color:white;
+                                                                    font-size: 1rem;
+                                                                    padding: 0.25rem;
+                                                                  border-radius: 0.5rem;
+                                                                 width:5rem;
+                                                                 height: 2rem;
+                                                                 text-align: center;
+                                                    
+                                                       
+                                                                   }
+                                                    
+                                                    
+                                                    
+                                                    
+                                                                   .part-2{
+                                                    
+                                                                    display: flex;
+                                                                    justify-content: flex-start;
+                                                                    flex-direction: column;
+                                                                    align-items: center;
+                                                                    width: 100%;
+                                                                    height: 20rem;
+                                                                    margin-top: 1rem;
+                                                                  
+                                                                    
+                                                                    background-color: #495057;
+                                                                    text-decoration: none;
+                                                                    font-family: "Nunito Sans", sans-serif;
+                                                    
+                                                                    color: #ffffff;
+                                                                    text-shadow: 1px 1px 2px pink;
+                                                                    font-style: italic;
+                                                                    font-weight: lighter;
+                                                                    font-size: 1rem;
+                                                    
+                                                                   }
+                                                    
+                                                    
+                                                    
+                                                    
+                                                                   .part-2 img{
+                                                    
+                                                                    width:100%;
+                                                                    height:80%;
+                                                                    
+                                                                   
+                                                    
+                                                                   }
+                                                    
+                                                    
+                                                    
+                                                                   .part-3{
+                                                                    display: flex;
+                                                                    justify-content: center;
+                                                                    align-items: center;
+                                                                    width: 100%;
+                                                                    height: 20rem;
+                                                                    background-color: cadetblue;
+                                                                   margin-bottom: 1rem;
+                                                                    font-weight: lighter;
+                                                       
+                                                       
+                                                                   }
+                                                       
+                                                       
+                                                       
+                                                                   .part-3 img{
+                                                                       width: 50%;
+                                                                       height: 100%;
+                                                          
+                                                                      }
+                                                       
+                                                       
+                                                       
+                                                                      .part-3 article{
+                                                                       width: 50%;
+                                                                       height: 100%;
+                                                                       display: flex;
+                                                                       flex-direction: column;
+                                                                       justify-content: center;
+                                                                       align-items: center;
+                                                                       background-color: #495057;
+                                                                       text-decoration: none;
+                                                                       font-family: "Nunito Sans", sans-serif;
+                                                                       
+                                                                       color: #ffffff;
+                                                                       text-shadow: 1px 1px 2px pink;
+                                                                       font-style: italic;
+                                                                       font-size: 0.75rem;
+                                                       
+                                                          
+                                                                      }
+                                                       
+                                                                      .part-3 article p{
+                                                                       width: 10rem;
+                                                                       line-height: 1rem;
+                                                                       text-align: justify;
+                                                       
+                                                       
+                                                                      }
+                                                       
+                                                       
+                                                       
+                                                       
+                                                       
+                                                       
+                                                       
+                                                                      .part-3 article a{
+                                                                       
+                                                                       text-decoration: none;
+                                                                       font-family: "Nunito Sans", sans-serif;
+                                                                       transform: translateX(1rem);
+                                                                       text-shadow: 1px 1px 2px pink;
+                                                                       font-style: italic;
+                                                                       
+                                                                       background-color: #03d;
+                                                                       font-style: italic;
+                                                                       color:white;
+                                                                       font-size: 1rem;
+                                                                       padding: 0.25rem;
+                                                                     border-radius: 0.5rem;
+                                                                    width: 5rem;
+                                                                    height: 2rem;
+                                                                    text-align: center;
+                                                       
+                                                          
+                                                                      }
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    .part-4{
+                                                        display: flex;
+                                                        justify-content: center;
+                                                        align-items: flex-start;
+                                                        width: 100%;
+                                                        height: 20rem;
+                                                        background-color: cadetblue;
+                                                       margin-bottom: 0;
+                                                        font-weight: lighter;
+                                                        margin-bottom: 1rem;
+                                                    
+                                                    
+                                                       }
+                                                    
+                                                    
+                                                    
+                                                       .part-4 img{
+                                                           width: 50%;
+                                                           height: 100%;
+                                                           margin-top: 0;
+                                                    
+                                                          }
+                                                    
+                                                    
+                                                    
+                                                          .part-4 article{
+                                                           width:50%;
+                                                           height: 100%;
+                                                           display: flex;
+                                                           flex-direction: column;
+                                                           justify-content: center;
+                                                           align-items: center;
+                                                           background-color: #495057;
+                                                           text-decoration: none;
+                                                           font-family: "Nunito Sans", sans-serif;
+                                                           
+                                                           color: #ffffff;
+                                                           text-shadow: 1px 1px 2px pink;
+                                                           font-style: italic;
+                                                           font-size: 0.75rem;
+                                                    
+                                                    
+                                                          }
+                                                    
+                                                          .part-4 article p{
+                                                           width: 10rem;
+                                                           line-height: 1rem;
+                                                           text-align: justify;
+                                                           text-wrap: wrap;
+                                                    
+                                                    
+
+
+
+                                            
+                                                          }
+                                                    
+
+                                                          .part-4 article h2{
+                                                            width: 10rem;
+                                                            line-height:2rem;
+                                                            text-align: justify;
+                                                            text-wrap: wrap;
+                                                     
+                                                     
+                                                           }
+                                                     
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                          .part-4 article a{
+                                                           
+                                                           text-decoration: none;
+                                                           font-family: "Nunito Sans", sans-serif;
+                                                           transform: translateX(1rem);
+                                                           text-shadow: 1px 1px 2px pink;
+                                                           font-style: italic;
+                                                           
+                                                           background-color: #03d;
+                                                           font-style: italic;
+                                                           color:white;
+                                                           font-size: 1rem;
+                                                           padding: 0.25rem;
+                                                         border-radius: 0.5rem;
+                                                        width: 5rem;
+                                                        height: 2rem;
+                                                        text-align: center;
+                                                    
+                                                    
+                                                          }
+                                                    
+                                                        
+                                                    
+                                                    
+                                                          .last-pic{
+                                                            margin-top: 0rem;
+                                                            width: 100%;
+                                                            height: 25rem;
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                            position: relative;
+                                                           
+                                                            
+                                                            
+                                                                }
+                                                            
+                                                            
+                                                                .last-pic video{
+                                                            
+                                                            height: 100%;
+                                                            width: 100%;
+                                                            object-fit: cover;
+                                                                }
+                                                            
+                                                            
+                                                            
+                                                                .last-pic a{
+                                                            background-color: #03d;
+                                                                    font-style: italic;
+                                                                    color: #ffffff;
+                                                                    font-size: 1rem;
+                                                                   text-align: center;
+                                                                   font-family: "Nunito Sans", sans-serif;
+                                                                   position: absolute;
+                                                                    bottom: 2rem;
+                                                                
+                                                                   text-decoration: none;
+                                                                  
+                                                                padding: 0.25rem;
+                                                                   border-radius: 0.5rem;
+                                                                   width: 10rem;
+                                                                   height: 2rem;
+                                                                   text-align: center;
+                                                            
+                                                            
+                                                            
+                                                                    
+                                                                        }
+                                                    
+                                                    
+                                                    
+                                                                        .last-pic span{
+                                                                            position: absolute;
+                                                                            
+                                                                                    font-style: italic;
+                                                                                    color: #ffffff;
+                                                                                    font-size: 1rem;
+                                                                                   text-align: center;
+                                                                                   font-family: "Nunito Sans", sans-serif;
+                                                                                   text-align: center;
+                                                                                   letter-spacing: 0.5rem;
+                                                                                   padding: 1rem;
+                                                                            
+                                                                            
+                                                                            
+                                                                                    
+                                                                                        }
+                                                
+
+
+
+                                                                      
+                                                                        .footer-container{
+                                                                           background-color: black;
+                                                                            
+                                                                            display: flex;
+                                                                            width: 100%;
+                                                                            height: 25rem;
+                                                                            flex-direction: column;
+                                                                            margin-top: 1rem;
+                                                                    align-content: center;
+                                                                            justify-content: center;
+                                                                           
+                                                                
+                                            
+                                            
+                                                                          
+                                            
+                                            
+                                            
+                                                                        }
+                                            
+                                                                        .about{
+                                                                            width: 20rem;
+                                                                            height: 20%;
+                                                                            transform: translate(1rem,5rem);
+                                                                            color: #ffffff;
+                                                                            font-style: italic;
+                                                                           text-align: center;
+                                                                           font-size: 0.75rem;
+                                                                    
+                                                                          
+                                                                        }
+                                            
+                                            
+                                                                        .Social{
+                                                                            width:20rem;
+                                                                            height: 100%;
+                                                                        
+                                                                            display: flex;
+                                                                            flex-direction:column;
+                                                                            justify-content: center;
+                                                                            align-items: center;
+                                                                            transform: translate(1rem , 2rem);
+                                                                            color: #ffffff;
+                                                                            font-style: italic;
+                                                                            font-size: 0.75rem;
+                                            
+                                            
+                                                                          
+                                                                        }
+                                            
+                                                                        .Social h2{
+                                                                            width:10rem;
+                                                                            display: block;
+                                                                            transform: translateX(1rem)
+                                                                        }
+                                            
+                                            
+                                                                        .Social a img{
+                                                                            width:3rem;
+                                                                            height: 3rem;
+                                                                          
+                                                                        }
+                                            
+                                                                        .Social-3{
+                                                                            width:10rem;
+                                                                            display:flex;
+                                                                            justify-content: center;
+                                                                            gap:0rem
+                                                                        
+                                                                        }
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                                                        .contact-us{
+                                                                           /* transform: translateX(2rem); */
+                                                                           height: 15rem;
+                                                                            width:15rem;
+                                                                            display: flex;
+                                                                            flex-direction: row;
+                                                                            justify-content: center;
+                                                                            align-items: center;
+                                                                            flex-wrap: nowrap;
+                                                                            gap: 0;
+                                                                          margin-top: 0;
+                                                                            transform: translateX(4rem);
+                                                                            font-size: 0.5rem;
+                                                                            font-style: italic;
+                                                                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                                                            color: #ffffff;
+                                                                       
+                                                                
+                                                                         
+                                                                        }
+                                                                        .email{
+                                                                            height: 5rem;
+                                                                
+                                                                            width: 20rem;
+                                                                            display: flex;
+                                                                            justify-content: center;
+                                                                            align-items: center;
+                                                                            flex-direction:column;
+                                                                            gap: 0;
+                                                                            margin: 0;
+                                                                            padding: 0;
+                                                                        }
+        
+                                                                        .email img{
+                                                                            height: 2rem;
+                                                    
+                                                                            width:2rem;
+                                                                            
+                                                                        }
+        
+        
+        
+        
+                                                                        .phone{
+                                                                            height: 5rem;
+                                                                            width: 20rem;
+                                                                            display: flex;
+                                                                            justify-content: center;
+                                                                            gap: 0rem;
+                                                                            align-items: center;
+                                                                            flex-direction:column;
+                                                                            
+                                                                           
+                                                                        }
+        
+        
+        
+                                                                        .phone img{
+                                                                            height: 2rem;
+                                                    
+                                                                            width:2rem;
+                                                                            
+                                                                        }
+        
+                                            
+                                                                        .copyright{
+                                                                            transform: translate(0.5rem,-1rem );
+                                                                            height:3rem;
+                                                                            width: auto;
+                                                                            color:#FFF;
+                                                                            font-style: italic;
+                                                                           
+                                                                            text-align: center;
+                                            
+                                                                        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                                    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
